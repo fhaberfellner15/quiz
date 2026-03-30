@@ -55,8 +55,8 @@ const MEDALS = ['🥇', '🥈']
         </div>
       </div>
 
-      <div class="card-footer bg-white border-top d-flex justify-content-between align-items-center px-4 py-3">
-        <span class="text-muted small">Wähle die Antwort, die am besten zu dir passt</span>
+      <div class="card-footer bg-white border-top px-4 py-3 d-grid d-sm-flex justify-content-sm-between align-items-sm-center">
+        <span class="d-none d-sm-block text-muted small">Wähle die Antwort, die am besten zu dir passt</span>
         <button
           type="button"
           class="btn btn-sm text-white"
