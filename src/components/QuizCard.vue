@@ -40,7 +40,7 @@ const MEDALS = ['🥇', '🥈']
 
         <p class="fw-semibold mb-3">{{ currentQuestion.text }}</p>
 
-        <div class="list-group mb-4">
+        <div class="list-group answers-list mb-4">
           <button
             v-for="(answer, i) in currentQuestion.answers"
             :key="i"
@@ -111,3 +111,15 @@ const MEDALS = ['🥇', '🥈']
 
   </div>
 </template>
+
+<style scoped>
+.answers-list {
+  display: grid;
+  grid-auto-rows: 1fr;
+}
+
+.answers-list .list-group-item {
+  display: flex;
+  align-items: center;
+}
+</style>
